@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex-direction: row;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #224567;
+  font-weight: bold;
+}
+
+.button1 {
+  flex-direction: row;
+  width: 100px;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #224567;
+  color: #224567;
+}
