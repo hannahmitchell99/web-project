@@ -28,3 +28,37 @@ nav {
   border-color: #224567;
   color: #224567;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.centered-text {
+  align-items: center;
+}
+
+.benefits-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.benefits-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.penguin-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.penguin-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
