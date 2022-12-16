@@ -1,67 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
 
-$font-body:"Roboto", sans-serif;
-$font-display:"Dancing Script", cursive;
+$font-body: "Roboto", sans-serif;
+$font-display: "Dancing Script", cursive;
 
 $color-primary: #224567;
 $color-secondary: #0d9fdd;
 $color-footer: #e6ddb6;
 $color-white: #fafafa;
 
-*{
-    margin:0;
-    padding:0;
-    background-color: $color-white;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: $color-white;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
-    flex-direction: row;
-    font-family: $font-display;
-    font-size: 60px;
-    color: $color-primary;
-    font-weight: bold;
+  flex-direction: row;
+  font-family: $font-display;
+  font-size: 60px;
+  color: $color-primary;
+  font-weight: bold;
 }
 
 .button1 {
-    flex-direction: row;
-    width: 100px;
-    background-color: $color-white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: $color-primary;
-    color: $color-primary;
+  flex-direction: row;
+  width: 100px;
+  background-color: $color-white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border: 10px;
+  border-radius: 10px;
+  border-color: $color-primary;
+  color: $color-primary;
+  
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.button2{
+  flex-direction: block;
+  width: 100px;
+  background-color: $color-primary;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: $color-primary;
+  color: $color-white;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.centered-text {
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+.penguin-left, .benefits-left{
+    align-self: flex-start;
+}
+
+.footer{
+  height: 30vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-footer;
+  
+  ul{
+    list-style-type: none;
+    background-color: $color-footer;
+
+  }
+  li{
+    margin-bottom: 10px;
+    background-color: $color-footer;
     
+  }
+
 }
-.centered-text{
-    align-items: center;
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #224567;
 }
-.benefits-left{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-.benefits-right{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.penguin-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-.penguin-right{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
+

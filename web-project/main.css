@@ -23,10 +23,24 @@ nav {
   width: 100px;
   background-color: #fafafa;
   text-align: center;
+  align-items: center;
   padding: 10px;
+  border: 10px;
   border-radius: 10px;
   border-color: #224567;
   color: #224567;
+}
+
+.button2 {
+  flex-direction: block;
+  width: 100px;
+  background-color: #224567;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #224567;
+  color: #fafafa;
 }
 
 header {
@@ -39,26 +53,40 @@ header {
   align-items: center;
 }
 
-.benefits-left {
+.box {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.benefits-right {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+.box div {
+  width: 100px;
+  height: 100px;
 }
 
-.penguin-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+.penguin-left, .benefits-left {
+  align-self: flex-start;
 }
 
-.penguin-right {
+.footer {
+  height: 30vh;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ddb6;
+}
+.footer ul {
+  list-style-type: none;
+  background-color: #e6ddb6;
+}
+.footer li {
+  margin-bottom: 10px;
+  background-color: #e6ddb6;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #224567;
 }
