@@ -18,8 +18,18 @@ nav {
   font-weight: bold;
 }
 
+section {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .button1 {
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100px;
   background-color: #fafafa;
   text-align: center;
@@ -32,11 +42,8 @@ nav {
 }
 
 .button2 {
-  flex-direction: block;
   width: 100px;
   background-color: #224567;
-  text-align: center;
-  align-items: center;
   padding: 10px;
   border-radius: 10px;
   border-color: #224567;
@@ -83,6 +90,14 @@ header {
 .footer li {
   margin-bottom: 10px;
   background-color: #e6ddb6;
+}
+
+h1, h3 {
+  color: #0d9fdd;
+}
+
+h2, h4, p {
+  color: #224567;
 }
 
 a:link,
