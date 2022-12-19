@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: #f5f4ee;
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
 
 .logo {
   flex-direction: row;
-  font-family: "Dancing Script", cursive;
+  font-family: "Francois One", sans-serif;
   font-size: 60px;
   color: #224567;
   font-weight: bold;
@@ -28,26 +28,26 @@ section {
 }
 
 .button1 {
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 100px;
-  background-color: #fafafa;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-  border: 10px;
+  background-color: #f5f4ee;
+  padding: 5px;
+  border: 2px solid #224567;
   border-radius: 10px;
-  border-color: #224567;
-  color: #224567;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+.button1 a.button1 {
+  align-items: center;
 }
 
 .button2 {
   width: 100px;
   background-color: #224567;
-  padding: 10px;
+  padding: 5px;
+  border: 2px solid #224567;
   border-radius: 10px;
-  border-color: #224567;
-  color: #fafafa;
+  color: #f5f4ee;
+  font-family: "Noto Sans", sans-serif;
 }
 
 header {
@@ -82,6 +82,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #e6ddb6;
+  font-family: "Noto Sans", sans-serif;
 }
 .footer ul {
   list-style-type: none;
@@ -94,14 +95,36 @@ header {
 
 h1, h3 {
   color: #0d9fdd;
+  margin: 20px;
 }
 
-h2, h4, p {
+h2, h4, h5, p {
   color: #224567;
+  margin: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
 
 a:link,
-a:visited {
+a:visited, a:focus {
   text-decoration: none;
   color: #224567;
+  text-align: center;
+  border: none;
+  background-color: transparent;
 }

@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap');
 
-$font-body:"Roboto", sans-serif;
-$font-display:"Dancing Script", cursive;
+$font-body: "Noto Sans", sans-serif;
+$font-logo: "Francois One", sans-serif;
+$font-display: "Nunito", sans-serif;
 
 $color-primary: #224567;
 $color-secondary: #0d9fdd;
 $color-footer: #e6ddb6;
 $color-white: #fafafa;
-
 * {
     margin:0;
     padding:0;
