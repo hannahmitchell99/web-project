@@ -16,7 +16,7 @@ $color-white: #f5f4ee;
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .logo {
   flex-direction: row;
@@ -24,6 +24,7 @@ nav {
   font-size: 60px;
   color: $color-primary;
   font-weight: bold;
+  text-decoration: none;
 }
 
 section {
@@ -36,15 +37,16 @@ section {
 }
 .button1 {
   width: 100px;
+  height: 40px;
   background-color: $color-white;
-  padding: 5px;
+  padding: 5px 5px;
   border: 2px solid $color-primary;
   border-radius: 10px;
   font-family: $font-body;
   font-weight: bold;
-  a.button1{
-    align-items: center;
-  }
+  text-align: center;
+
+  
 
 }
 
@@ -56,7 +58,7 @@ section {
   border-radius: 10px;
   color: $color-white;
   font-family: $font-body;
-
+  text-align: center;
 }
 
 
@@ -94,6 +96,7 @@ header {
   
   ul{
     list-style-type: none;
+    text-align: center;
     background-color: $color-footer;
 
   }
@@ -126,13 +129,21 @@ h3{
   font-style:italic;
 }
 
-
-a:link,
-a:visited, a:focus {
+a.link1:link, a.link1:visited, a.link1:focus{
   text-decoration: none;
-  color: #224567;
   text-align: center;
   border:none;
   background-color: transparent;
+  color:$color-primary;
+  font-weight: bold;
 }
+a.link2:link, a.link2:visited, a.link2:focus{
+  text-decoration: none;
+  text-align: center;
+  border:none;
+  background-color: transparent;
+  color: $color-white;
+  font-weight: bold;
+}
+
 

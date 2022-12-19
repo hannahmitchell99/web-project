@@ -7,7 +7,7 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {
@@ -16,6 +16,7 @@ nav {
   font-size: 60px;
   color: #224567;
   font-weight: bold;
+  text-decoration: none;
 }
 
 section {
@@ -29,15 +30,14 @@ section {
 
 .button1 {
   width: 100px;
+  height: 40px;
   background-color: #f5f4ee;
-  padding: 5px;
+  padding: 5px 5px;
   border: 2px solid #224567;
   border-radius: 10px;
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
-}
-.button1 a.button1 {
-  align-items: center;
+  text-align: center;
 }
 
 .button2 {
@@ -48,6 +48,7 @@ section {
   border-radius: 10px;
   color: #f5f4ee;
   font-family: "Noto Sans", sans-serif;
+  text-align: center;
 }
 
 header {
@@ -86,6 +87,7 @@ header {
 }
 .footer ul {
   list-style-type: none;
+  text-align: center;
   background-color: #e6ddb6;
 }
 .footer li {
@@ -120,11 +122,20 @@ h3 {
   font-style: italic;
 }
 
-a:link,
-a:visited, a:focus {
+a.link1:link, a.link1:visited, a.link1:focus {
   text-decoration: none;
-  color: #224567;
   text-align: center;
   border: none;
   background-color: transparent;
+  color: #224567;
+  font-weight: bold;
+}
+
+a.link2:link, a.link2:visited, a.link2:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #f5f4ee;
+  font-weight: bold;
 }
