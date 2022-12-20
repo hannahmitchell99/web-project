@@ -7,7 +7,7 @@ $font-display: "Nunito", sans-serif;
 $color-primary: #224567;
 $color-secondary: #0d9fdd;
 $color-footer: #e6ddb6;
-$color-white: #f5f4ee;
+$color-white: #f8f8f6;
 
 * {
   margin: 0;
@@ -39,7 +39,7 @@ section {
   width: 100px;
   height: 40px;
   background-color: $color-white;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 5px;
   border: 2px solid $color-primary;
   border-radius: 10px;
   font-family: $font-body;
@@ -51,7 +51,7 @@ section {
 }
 
 .button2{
-  width: 100px;
+  width: 90px;
   background-color: $color-primary;
   padding: 5px;
   border: 2px solid $color-primary;
@@ -73,17 +73,17 @@ header {
 
 .box {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.box div {
-  width: 100px;
-  height: 100px;
-}
-.penguin-left, .benefits-left{
-    align-self: flex-start;
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .footer{
@@ -116,6 +116,7 @@ h2,h4,h5, p {
   margin: 20px;
   font-family:$font-body;
 }
+
 h1{
   font-family:$font-display;
 }
@@ -147,3 +148,8 @@ a.link2:link, a.link2:visited, a.link2:focus{
 }
 
 
+@media screen and (mim-width: 768px) {
+  section div {
+    width: 100%;
+  }
+}

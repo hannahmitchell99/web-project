@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #f5f4ee;
+  background-color: #f8f8f6;
 }
 
 nav {
@@ -31,8 +31,8 @@ section {
 .button1 {
   width: 100px;
   height: 40px;
-  background-color: #f5f4ee;
-  padding: 5px 5px;
+  background-color: #f8f8f6;
+  padding: 5px 5px 5px 5px;
   border: 2px solid #224567;
   border-radius: 10px;
   font-family: "Noto Sans", sans-serif;
@@ -41,12 +41,12 @@ section {
 }
 
 .button2 {
-  width: 100px;
+  width: 90px;
   background-color: #224567;
   padding: 5px;
   border: 2px solid #224567;
   border-radius: 10px;
-  color: #f5f4ee;
+  color: #f8f8f6;
   font-family: "Noto Sans", sans-serif;
   text-align: center;
 }
@@ -63,18 +63,17 @@ header {
 
 .box {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.box div {
-  width: 100px;
-  height: 100px;
-}
-
-.penguin-left, .benefits-left {
-  align-self: flex-start;
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .footer {
@@ -136,6 +135,12 @@ a.link2:link, a.link2:visited, a.link2:focus {
   text-align: center;
   border: none;
   background-color: transparent;
-  color: #f5f4ee;
+  color: #f8f8f6;
   font-weight: bold;
+}
+
+@media screen and (mim-width: 768px) {
+  section div {
+    width: 100%;
+  }
 }
