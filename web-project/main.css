@@ -76,6 +76,13 @@ header {
   flex: 1;
 }
 
+.column-img {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 0.5;
+}
+
 .footer {
   height: 30vh;
   display: flex;
