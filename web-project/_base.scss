@@ -7,16 +7,29 @@ $font-display: "Nunito", sans-serif;
 $color-primary: #224567;
 $color-secondary: #0d9fdd;
 $color-footer: #e6ddb6;
-$color-white: #fafafa;
+$color-white: #fefdf8;
+
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: $font-body;
-    background-color: $color-white;
+  margin: 0;
+  padding: 0;
+  background-color: $color-white;
 }
 
-a:link,
-a:visited {
+// changing the various links and their colours
+a.link1:link, a.link1:visited, a.link1:focus{
     text-decoration: none;
-}
+    text-align: center;
+    border:none;
+    background-color: transparent;
+    color:$color-primary;
+    font-weight:bold;
+  }
+a.link2:link, a.link2:visited, a.link2:focus{
+    text-decoration: none;
+    text-align: center;
+    border:none;
+    background-color: transparent;
+    color: $color-white;
+    font-weight: bold;
+  }
+  

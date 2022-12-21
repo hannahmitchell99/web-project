@@ -1,8 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  background-color: #f8f8f6;
+  background-color: #fefdf8;
+}
+
+a.link1:link, a.link1:visited, a.link1:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #224567;
+  font-weight: bold;
+}
+
+a.link2:link, a.link2:visited, a.link2:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #fefdf8;
+  font-weight: bold;
 }
 
 nav {
@@ -11,7 +30,7 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: 3px;
   padding: 0;
 }
 
@@ -39,23 +58,15 @@ nav {
   margin: 0;
 }
 
-section {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .button1 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  margin-bottom: 15px;
   width: 100px;
   height: 40px;
-  background-color: #f8f8f6;
+  background-color: #fafafa;
   padding: 5px;
   border: 2px solid #224567;
   border-radius: 10px;
@@ -67,13 +78,72 @@ section {
 
 .button2 {
   width: 120px;
+  height: 25px;
   background-color: #224567;
   padding: 5px;
   border: 2px solid #224567;
   border-radius: 10px;
-  color: #f8f8f6;
+  color: #fafafa;
   font-family: "Noto Sans", sans-serif;
   text-align: center;
+}
+
+.footer {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ddb6;
+  font-family: "Noto Sans", sans-serif;
+}
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: #e6ddb6;
+}
+.footer li {
+  margin-bottom: 10px;
+  background-color: #e6ddb6;
+}
+
+h1, h3 {
+  color: #0d9fdd;
+  margin: 40px;
+}
+
+h2, h4, h5, p {
+  color: #224567;
+  margin: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h4 {
+  font-size: larger;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+section {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -106,69 +176,6 @@ header {
   flex-direction: column;
   flex-basis: 100%;
   flex: 0.5;
-}
-
-.footer {
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e6ddb6;
-  font-family: "Noto Sans", sans-serif;
-}
-.footer ul {
-  list-style-type: none;
-  text-align: center;
-  background-color: #e6ddb6;
-}
-.footer li {
-  margin-bottom: 10px;
-  background-color: #e6ddb6;
-}
-
-h1, h3 {
-  color: #0d9fdd;
-  margin: 40px;
-}
-
-h2, h4, h5, p {
-  color: #224567;
-  margin: 20px;
-  font-family: "Noto Sans", sans-serif;
-}
-
-h1 {
-  font-family: "Nunito", sans-serif;
-}
-
-h3 {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-a.link1:link, a.link1:visited, a.link1:focus {
-  text-decoration: none;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-  color: #224567;
-  font-weight: bold;
-}
-
-a.link2:link, a.link2:visited, a.link2:focus {
-  text-decoration: none;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-  color: #f8f8f6;
-  font-weight: bold;
 }
 
 @media screen and (mim-width: 768px) {

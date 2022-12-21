@@ -2,12 +2,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
-  background-color: #fafafa;
+  background-color: #fefdf8;
 }
 
-a:link,
-a:visited {
+a.link1:link, a.link1:visited, a.link1:focus {
   text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #224567;
+  font-weight: bold;
+}
+
+a.link2:link, a.link2:visited, a.link2:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #fefdf8;
+  font-weight: bold;
 }
