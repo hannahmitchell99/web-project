@@ -5,7 +5,9 @@
   background-color: #fefdf8;
 }
 
-a.link1:link, a.link1:visited, a.link1:focus {
+a.link1:link,
+a.link1:visited,
+a.link1:focus {
   text-decoration: none;
   text-align: center;
   border: none;
@@ -14,7 +16,9 @@ a.link1:link, a.link1:visited, a.link1:focus {
   font-weight: bold;
 }
 
-a.link2:link, a.link2:visited, a.link2:focus {
+a.link2:link,
+a.link2:visited,
+a.link2:focus {
   text-decoration: none;
   text-align: center;
   border: none;

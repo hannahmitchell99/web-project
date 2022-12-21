@@ -1,48 +1,46 @@
-
 // styling different sections of the document
 section {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
-  }
-  
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .centered-text {
-    align-items: center;
-  }
-  
+  align-items: center;
+}
+
 // layout for penguin images + benefits
 .box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
 .column-img {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 0.5;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 0.5;
+}
 // adding responsive design
 @media screen and (mim-width: 768px) {
-    section div {
-      width: 100%;
-    }
+  section div {
+    width: 100%;
   }
-  
+}

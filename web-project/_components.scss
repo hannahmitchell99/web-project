@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap");
 
 $font-body: "Noto Sans", sans-serif;
 $font-logo: "Francois One", sans-serif;
@@ -8,117 +8,118 @@ $color-primary: #224567;
 $color-secondary: #0d9fdd;
 $color-footer: #e6ddb6;
 $color-white: #fafafa;
-// navigation bar 
+// navigation bar
 nav {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
-    margin:3px;
-    padding:0;
-  }
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3px;
+  padding: 0;
+}
 .logo {
-    display: flex;
-    max-width: 40%;
-    flex-direction: column;
-    font-family: $font-logo;
-    font-size: 60px;
-    color: $color-primary;
-    font-weight: bold;
-    text-decoration: none;
-    align-self: flex-start;
-    justify-content: left;
-  }
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+  font-family: $font-logo;
+  font-size: 60px;
+  color: $color-primary;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+  justify-content: left;
+}
 
-.logo-img{
-    max-width: 20%;
-    max-block-size: 50px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding:0;
-    margin:0;
-  }
+.logo-img {
+  max-width: 20%;
+  max-block-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
 
 .button1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 100px;
-    height: 40px;
-    background-color: $color-white;
-    padding: 5px;
-    border: 2px solid $color-primary;
-    border-radius: 10px;
-    font-family: $font-body;
-    font-weight: bold;
-    text-align: center;
-    margin-left: auto;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 40px;
+  background-color: $color-white;
+  padding: 5px;
+  border: 2px solid $color-primary;
+  border-radius: 10px;
+  font-family: $font-body;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+}
 
-  // button2 is for the dark coloured buttons, separate from "login"
-.button2{
-    width: 120px;
-    height:25px;
-    background-color: $color-primary;
-    padding: 5px;
-    border: 2px solid $color-primary;
-    border-radius: 10px;
-    color: $color-white;
-    font-family: $font-body;
-    text-align: center;
-  
-  }
+// button2 is for the dark coloured buttons, separate from "login"
+.button2 {
+  width: 120px;
+  height: 25px;
+  background-color: $color-primary;
+  padding: 5px;
+  border: 2px solid $color-primary;
+  border-radius: 10px;
+  color: $color-white;
+  font-family: $font-body;
+  text-align: center;
+}
 // adding footer elements
-.footer{
-    height: 30vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-footer;
+  font-family: $font-body;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
     background-color: $color-footer;
-    font-family: $font-body;
-    
-    ul{
-      list-style-type: none;
-      text-align: center;
-      background-color: $color-footer;
-  
-    }
-    li{
-      margin-bottom: 10px;
-      background-color: $color-footer;
-      
-    }
   }
+  li {
+    margin-bottom: 10px;
+    background-color: $color-footer;
+  }
+}
 
 // styling the headings, paragraphs and text
-h1, h3 {
-    color: $color-secondary;
-    margin: 40px;
- }
-h2,h4,h5, p {
-    color:$color-primary;
-    margin: 20px;
-    font-family:$font-body;
-  }
-h4{
-    font-size: larger;
-  }
-h1{
-    font-family:$font-display;
-  }
-h3{
-    font-family: $font-body;
-  }
+h1,
+h3 {
+  color: $color-secondary;
+  margin: 40px;
+}
+h2,
+h4,
+h5,
+p {
+  color: $color-primary;
+  margin: 20px;
+  font-family: $font-body;
+}
+h4 {
+  font-size: larger;
+}
+h1 {
+  font-family: $font-display;
+}
+h3 {
+  font-family: $font-body;
+}
 
 // spans for inline styling in paragraphs
-.bold{
-    font-weight:bold;
-  }
-.italic{
-    font-style:italic;
-  }
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}

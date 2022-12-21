@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans:wght@300&family=Nunito:wght@700&display=swap");
 
 $font-body: "Noto Sans", sans-serif;
 $font-logo: "Francois One", sans-serif;
@@ -16,20 +16,23 @@ $color-white: #fefdf8;
 }
 
 // changing the various links and their colours
-a.link1:link, a.link1:visited, a.link1:focus{
-    text-decoration: none;
-    text-align: center;
-    border:none;
-    background-color: transparent;
-    color:$color-primary;
-    font-weight:bold;
-  }
-a.link2:link, a.link2:visited, a.link2:focus{
-    text-decoration: none;
-    text-align: center;
-    border:none;
-    background-color: transparent;
-    color: $color-white;
-    font-weight: bold;
-  }
-  
+a.link1:link,
+a.link1:visited,
+a.link1:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: $color-primary;
+  font-weight: bold;
+}
+a.link2:link,
+a.link2:visited,
+a.link2:focus {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: $color-white;
+  font-weight: bold;
+}

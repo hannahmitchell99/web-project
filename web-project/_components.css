@@ -81,12 +81,16 @@ nav {
   background-color: #e6ddb6;
 }
 
-h1, h3 {
+h1,
+h3 {
   color: #0d9fdd;
   margin: 40px;
 }
 
-h2, h4, h5, p {
+h2,
+h4,
+h5,
+p {
   color: #224567;
   margin: 20px;
   font-family: "Noto Sans", sans-serif;
